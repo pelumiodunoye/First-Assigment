@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Me</title>
+    <link rel="stylesheet" type="text/css" href="media.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">About me</a></li>
+            <li><a href="form.html">Sign Up</a></li>
+            <li><a href="table.html">Table of courses</a></li>
+            <li><a href="#">Media</a></li>
+        </ul>
+        <hr />
+    </nav>
+
+    <header>
+        <h1>Checkout my gallery</h1>
+    </header>
+
+    <section>
+        <h2>Welcome to My World</h2>
+        <p>
+            Hello! I am Pelumi, a Front-End Engineering Student.
+            Here's a little more about me through various media elements.
+        </p>
+    </section>
+
+    <section>
+        <picture>
+            <source srcset="assets/Image-mobile.jpg" media="(max-width: 600px)" />
+            <source srcset="assets/Image-tablet.jpg" media="(min-width: 601px) and (max-width: 1024px)" />
+            <source srcset="assets/Image-laptop.jpg" media="(min-width: 1025px)" />
+            <img src="./assets/Original-image.jpg" alt="A picture of Pelumi" />
+        </picture>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2>Here's a video of me</h2>
+        <video controls>
+            <source src="assets/VID-20240723-WA0001.mp4" type="video/mp4" />
+            <source src="assets/VID-20240723-WA0001.ogg" type="video/ogg" />
+            Your browser does not support the video tag.
+        </video>
+        <p>
+            Here is a video of me.
+        </p>
+    </section>
+
+    <section>
+        <h2>Audio Message</h2>
+        <audio controls>
+            <source src="assets/WhatsApp Audio 2024-08-14 at 23.21.51_c489fe6b.mp3" type="audio/mpeg" />
+            <source src="assets/WhatsApp Audio 2024-08-14 at 23.21.51_c489fe6b.ogg" type="audio/ogg" />
+            Your browser does not support the audio element.
+        </audio>
+        <p>
+            Listen to this audio message to hear my voice.
+        </p>
+    </section>
+
+    <footer>
+        <button><a href="#top">Go to Top</a></button>
+    </footer>
+
+</body>
+</html>
