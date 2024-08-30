@@ -66,6 +66,7 @@ body {
     padding: 0;
     background-color: #f4f4f4;
     color: #333;
+    overflow-x: hidden;
   }
   
   header {
@@ -73,7 +74,25 @@ body {
     color: #fff;
     padding: 20px 0;
   }
+  .header-content {
+    display: flex;
+    align-items: center;
+  }
   
+  .header-content .left-side img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .header-content .left-side {
+    max-width: 100%;
+    overflow: hidden;
+  }
+  
+  .header-content .left-side svg {
+    margin-left: 10px; /* Adjust spacing if necessary */
+  }
   
   main {
     padding: 20px;
